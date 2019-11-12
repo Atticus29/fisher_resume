@@ -2,6 +2,14 @@
   font-weight: bold;
 }
 
+p{
+  margin: 1%;
+}
+
+h4{
+  margin: 1%;
+}
+
 
 #personalInfo p {
   line-height: 1.5;
