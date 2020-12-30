@@ -70,3 +70,7 @@ h4{
 #contact-info-col{
   margin-top: 1.2rem;
 }
+
+.reduced-margins{
+  margin: 0;
+}
