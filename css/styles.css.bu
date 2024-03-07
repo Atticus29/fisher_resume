@@ -1,0 +1,76 @@
+.abbrevInfo {
+  font-weight: bold;
+}
+
+p {
+  margin: 1%;
+}
+
+h4 {
+  margin: 1%;
+}
+
+#personalInfo p {
+  line-height: 1.5;
+  vertical-align: middle;
+}
+
+#personalInfo {
+  text-align: center;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.dim-underline {
+  color: grey;
+}
+
+.bigger-underline {
+  border: 2px solid black;
+  /* border-top: 3px double #8c8b8b; */
+}
+
+.individual-subsections {
+  border-top: 1px dotted #8c8b8b;
+  border-bottom: 1px dotted #fff;
+}
+
+.educationName {
+  font-weight: bold;
+}
+
+.educationLocation {
+  font-style: italic;
+}
+
+.skill-heading {
+  font-style: italic;
+  text-align: center;
+}
+
+.educationDegreeName {
+  font-style: italic;
+}
+
+.date {
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.bulletPoint {
+  color: #868686;
+}
+
+#programmingSkills .bulletPoint {
+  font-size: 90%;
+}
+
+#contact-info-col {
+  margin-top: 1.2rem;
+}
+
+.reduced-margins {
+  margin: 0;
+}
