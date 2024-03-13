@@ -1,10 +1,247 @@
-.experience__job__languages__title {
-  font-size: 1.45rem;
-}
-.experience__job__description__title {
-  font-size: 1.45rem;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background-color: #f2f2f2; */
+  background-color: #fff;
 }
 
-.experience__job__name__title {
-  font-size: 2.5rem;
+.container {
+  /* max-width: 800px; */
+  /* margin: 20px auto; */
+  /* padding: 20px; */
+  background-color: #fff;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.name h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+.tagline p {
+  font-style: italic;
+  color: #666;
+}
+
+.experience,
+.software-published,
+.portfolio-projects,
+.education,
+.other-interests {
+  margin-top: 30px;
+}
+
+.experience__title,
+.software-published__title,
+.portfolio-projects__title,
+.education__title,
+.other-interests__title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.experience__job {
+  margin-bottom: 30px;
+}
+
+.experience__job__name__title,
+.portfolio-projects__content-list li h4,
+.education__single-institution h4 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.software-published__publication-list li em {
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.experience__job__date p,
+.education__single-institution__date p,
+.portfolio-project__single-project__date p {
+  font-style: italic;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.experience__job__languages__title,
+.experience__job__description__title,
+.software-published__publication-list li,
+/* .portfolio-projects__content-list li, */
+.education__single-institution__title,
+.other-interests__title {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.experience__job__languages ul,
+.experience__job__description ul,
+.software-published__publication-list li ul,
+.portfolio-projects__content-list li ul,
+.software-published__publication-list ul,
+.education__single-institution ul,
+.other-interests ul {
+  margin-left: 20px;
+  list-style-type: disc; /* Adding bullets */
+}
+
+.software-published__publication-list ul li,
+.portfolio-project__single-project__languages ul li,
+.portfolio-project__single-project__links ul li {
+  list-style-type: disc;
+}
+
+.experience__job__links p,
+.software-published__publication-list li a,
+.portfolio-projects__content-list li a,
+.education__single-institution ul li,
+.other-interests ul li {
+  margin: 5px 0;
+}
+
+.experience__job__links p a,
+.software-published__publication-list li a,
+.portfolio-projects__content-list li a,
+.education__single-institution ul li {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.experience__job__links p a:hover,
+.software-published__publication-list li a:hover,
+.portfolio-projects__content-list li a:hover,
+.education__single-institution ul li:hover {
+  text-decoration: underline;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  .name h1 {
+    font-size: 24px;
+  }
+
+  .experience__title,
+  .software-published__title,
+  .portfolio-projects__title,
+  .education__title,
+  .other-interests__title {
+    font-size: 20px;
+  }
+
+  .experience__job__name__title,
+  .software-published__publication-list li em,
+  .portfolio-projects__content-list li h4,
+  .education__single-institution h4,
+  .other-interests__single-interest p {
+    font-size: 16px;
+  }
+
+  .experience__job__date p,
+  .education__single-institution__date p,
+  .portfolio-project__single-project__date p {
+    font-size: 14px;
+  }
+
+  .experience__job__languages__title,
+  .experience__job__description__title,
+  .software-published__publication-list li,
+  .portfolio-projects__content-list li,
+  .education__single-institution__title,
+  .other-interests__title {
+    font-size: 16px;
+  }
+
+  .experience__job__languages ul,
+  .experience__job__description ul,
+  .software-published__publication-list li ul,
+  .portfolio-projects__content-list li ul,
+  .education__single-institution ul,
+  .other-interests ul {
+    margin-left: 15px;
+  }
+}
+
+/* Custom Styling */
+.experience__job__languages__title,
+.portfolio-project__single-project__languages__title {
+  font-size: 16px; /* same size as experience__job__languages__title */
+}
+
+.software-published__publication-list li,
+.portfolio-projects__single-project__languages ul li {
+  font-weight: normal; /* Removing bold */
+  margin-left: 20px; /* Indenting */
+  font-size: 15px; /* Same size */
+}
+
+/* Adjusting the font size for experience__job__description__title */
+.experience__job__description__title {
+  font-size: 16px; /* Same size as experience__job__languages__title */
+}
+
+/* Adding bullets for list items */
+.experience__job__description ul li,
+.software-published__publication-list li {
+  list-style-type: disc;
+}
+
+/* Adjusting the font size for children of other-interests__single-interest class */
+.other-interests__single-interest li {
+  font-size: 16px;
+}
+
+/* Removing bold for portfolio-project__single-project__description class */
+.portfolio-project__single-project__description {
+  font-weight: normal;
+}
+
+.experience__job,
+.software-published__publication-list,
+.education__single-institution {
+  border: 1px solid #ccc; /* Border style */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #f2f2f2; /* Same color as the border */
+  padding-left: 10px;
+  margin-bottom: 1rem;
+}
+
+.portfolio-project__single-project,
+.other-interests__list {
+  border: 1px solid #ccc; /* Border style */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #f2f2f2; /* Same color as the border */
+  padding-left: 10px;
+  margin-bottom: 1rem;
+}
+
+.portfolio-project__single-project__languages ul li {
+  font-weight: normal;
+}
+
+.other-interests ul li,
+.experience__job__languages ul li {
+  font-size: 15px;
+  list-style-type: disc;
+}
+.portfolio-project__single-project__date,
+.education__single-institution__date {
+  font-style: italic;
+  color: #666;
 }
